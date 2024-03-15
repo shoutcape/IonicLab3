@@ -33,7 +33,7 @@ export interface DetailsResult {
 
 export const useApi = () => {
     let url = 'http://www.omdbapi.com/'
-    let apiKey = 'bb4c7a37'
+    let apiKey = ''
 
     const searchData = async (
         title: string, 
